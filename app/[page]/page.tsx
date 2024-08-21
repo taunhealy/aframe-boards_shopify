@@ -1,12 +1,11 @@
-import Footer from "components/layout/footer";
+// src/app/page.tsx
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+const HomePage = () => {
   return (
-    <>
-      <div className="w-full">
-        <div className="mx-8 max-w-2xl py-20 sm:mx-auto">{children}</div>
-      </div>
-      <Footer />
-    </>
+    <div>
+      <h1>Shopify + Next.js 13!</h1>
+    </div>
   );
-}
+};
+
+export default HomePage;
