@@ -27,7 +27,6 @@ yarn-error.log*
 
 # local env files
 .env*.local
-.env*
 .env
 
 # vercel
@@ -36,3 +35,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# .env.local
+NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
+NEXT_PUBLIC_SANITY_DATASET=your_dataset
+NEXT_PUBLIC_SANITY_API_VERSION=2024-08-21
